@@ -11,6 +11,10 @@ a {
   color: inherit;
 }
 
+ul {
+  list-style-type: none;
+}
+
 header {
   background-color: #FBC201;
   color: #7C6208;
@@ -44,6 +48,45 @@ header svg {
 
 header .menu-button {
   cursor: pointer;
+}
+
+header .menu-button .bi-x {
+  display: none;
+}
+
+header .menu-button .bi-list {
+  display: inline;
+}
+
+header .menu-button.active .bi-x {
+  display: inline;
+}
+
+header .menu-button.active .bi-list {
+  display: none;
+}
+
+.menu {
+  font-size: 5rem;
+  display: none;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right;
+}
+
+.menu a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.menu.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /* Grid View */

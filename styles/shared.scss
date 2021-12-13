@@ -15,6 +15,10 @@ a {
     color: inherit;
 }
 
+ul {
+    list-style-type: none;
+}
+
 header {
     background-color: $primary-color;
     color: $complem-color;
@@ -47,7 +51,43 @@ header {
 
     .menu-button {
         cursor: pointer;
+
+        .bi-x {
+            display: none;
+        }
+    
+        .bi-list {
+            display: inline;
+        }
     }
+
+    .menu-button.active {
+        .bi-x {
+            display: inline;
+        }
+    
+        .bi-list {
+            display: none;
+        }
+    }
+}
+
+.menu {
+    font-size: 5rem;
+
+    //Arrangement
+    display: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: right;
+
+    a:hover {
+        text-decoration-line: underline;
+    }
+}
+
+.menu.active {
+    display: flex;
 }
 
 /* Grid View */
