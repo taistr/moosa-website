@@ -1,0 +1,43 @@
+$main-font: "VT323", monospace;
+$logo-font: "La Belle Aurore", cursive;
+$primary-color: #FBC201;
+$complem-color: #7C6208;
+
+body {
+    font-family: $main-font;
+    color: white;
+
+    //Sizing
+    height: 100vh;
+    padding: 1rem;
+
+    //Arrangement
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    //Background
+    background: url('cafe_lounge.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    h1 {
+        font-size: 5rem;
+        font-weight: normal;
+    }
+    
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+.socials {
+    svg {
+        //Spacing
+        margin-top: 1rem;
+        margin-right: 0.5rem;
+        
+        //Sizing
+        width: 2.5rem;
+        height: auto;
+    }
+}

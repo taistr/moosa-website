@@ -1,0 +1,35 @@
+body {
+  font-family: "VT323", monospace;
+  color: white;
+  height: 100vh;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url("cafe_lounge.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body h1 {
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+body p {
+  font-size: 1.5rem;
+}
+
+.socials svg {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  width: 2.5rem;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
