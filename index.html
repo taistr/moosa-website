@@ -10,8 +10,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=VT323&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/shared.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="styles/shared.css">
+        <link rel="stylesheet" href="styles/main.css">
     </head>
 
     <body>
@@ -20,13 +20,17 @@
                <span class="logo">Moosa Bar</span> 
             </a>
             
-            <div class="menu-button">
+            <div class="menu-button" onclick="toggleMenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                 </svg>
             </div>
             
         </header>
+
+        <div class="menu">
+
+        </div>
 
         <main>
             <h1>Coffee.<br>Beer.<br>Cocktails.</h1>
@@ -46,6 +50,8 @@
 
             </div>
         </main>
+
+        <script src="scripts/shared.js"></script>
     </body>
 
 </html>
