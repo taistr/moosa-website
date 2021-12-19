@@ -76,6 +76,10 @@ header .menu-button.active .bi-list {
       -ms-flex-pack: end;
           justify-content: flex-end;
   text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
 }
 
 .menu a:hover {
