@@ -1,0 +1,57 @@
+body {
+  font-family: "VT323", monospace;
+  color: white;
+  overflow-y: hidden;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  height: 100vh;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url("cafe_lounge.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body h1 {
+  font-size: 5rem;
+  font-weight: normal;
+}
+
+body p {
+  font-size: 1.5rem;
+}
+
+.socials svg {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  width: 2.5rem;
+  height: auto;
+}
+
+.socials svg:hover {
+  fill: #FBC201;
+}
+
+main {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+main.active {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+body.active {
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(251, 194, 1, 0.7);
+          box-shadow: inset 0 0 0 1000px rgba(251, 194, 1, 0.7);
+}
+/*# sourceMappingURL=about.css.map */
