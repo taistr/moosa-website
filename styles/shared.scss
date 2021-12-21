@@ -78,6 +78,7 @@ header {
 }
 
 .menu {
+    font-family: $main-font;
     font-size: 5rem;
 
     //Arrangement
@@ -101,6 +102,10 @@ header {
 
 .menu.active {
     display: flex;
+}
+
+.footer {
+    display: none;
 }
 
 /* Grid View */
