@@ -59,6 +59,11 @@ header {
         .bi-list {
             display: inline;
         }
+
+        svg:hover {
+            border-radius: 0.5rem;
+            background-color: white;
+        }
     }
 
     .menu-button.active {
@@ -91,6 +96,7 @@ header {
     a:hover {
         text-decoration-line: underline;
     }
+
 }
 
 .menu.active {

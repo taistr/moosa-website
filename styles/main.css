@@ -36,6 +36,10 @@ body p {
   height: auto;
 }
 
+.socials svg:hover {
+  fill: #FBC201;
+}
+
 main {
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;

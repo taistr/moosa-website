@@ -45,6 +45,10 @@ body {
         width: 2.5rem;
         height: auto;
     }
+
+    svg:hover {
+        fill: $primary-color;
+    }
 }
 
 main {

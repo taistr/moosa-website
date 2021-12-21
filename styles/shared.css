@@ -58,6 +58,11 @@ header .menu-button .bi-list {
   display: inline;
 }
 
+header .menu-button svg:hover {
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
 header .menu-button.active .bi-x {
   display: inline;
 }
