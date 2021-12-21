@@ -1,10 +1,11 @@
 $main-font: "VT323", monospace;
 $logo-font: "La Belle Aurore", cursive;
+$para-font: "Space Mono", monospace;
 $primary-color: #FBC201;
 $complem-color: #7C6208;
 
 body {
-    font-family: $main-font;
+    font-family: $para-font;
     color: white;
 
     overflow-y: hidden;
@@ -26,7 +27,15 @@ body {
     background-size: cover;
 
     h1 {
+        //Font
+        font-family: $main-font;
         font-size: 5rem;
+        font-weight: normal;
+    }
+
+    h2 {
+        //Font
+        font-family: $main-font;
         font-weight: normal;
     }
     

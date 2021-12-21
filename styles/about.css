@@ -1,5 +1,5 @@
 body {
-  font-family: "VT323", monospace;
+  font-family: "Space Mono", monospace;
   color: white;
   overflow-y: hidden;
   -webkit-transition-duration: 0.5s;
@@ -21,7 +21,13 @@ body {
 }
 
 body h1 {
+  font-family: "VT323", monospace;
   font-size: 5rem;
+  font-weight: normal;
+}
+
+body h2 {
+  font-family: "VT323", monospace;
   font-weight: normal;
 }
 
