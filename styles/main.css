@@ -25,12 +25,12 @@ body {
 }
 
 body h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: normal;
 }
 
 body p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-family: "Space Mono", monospace;
 }
 
@@ -54,7 +54,7 @@ body footer div {
 }
 
 body footer p {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .socials svg {
@@ -69,17 +69,16 @@ body footer p {
 }
 
 main {
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 main.active {
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  color: transparent;
 }
 
 body.active {
-  -webkit-box-shadow: inset 0 0 0 1000px rgba(251, 194, 1, 0.7);
-          box-shadow: inset 0 0 0 1000px rgba(251, 194, 1, 0.7);
+  -webkit-box-shadow: inset 0 0 0 1000px rgba(78, 110, 93, 0.7);
+          box-shadow: inset 0 0 0 1000px rgba(78, 110, 93, 0.7);
 }
 /*# sourceMappingURL=main.css.map */

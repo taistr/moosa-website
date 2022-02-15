@@ -77,7 +77,7 @@ header .menu-button.active .bi-list {
 
 .menu {
   font-family: "Major Mono Display", monospace;
-  font-size: 5rem;
+  font-size: 4rem;
   display: none;
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -87,7 +87,7 @@ header .menu-button.active .bi-list {
           justify-content: flex-end;
   text-align: right;
   position: absolute;
-  bottom: 0;
+  bottom: 40%;
   right: 0;
   padding: 1rem;
 }
