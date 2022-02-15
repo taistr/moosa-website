@@ -75,6 +75,7 @@ main {
 
 main.active {
   color: transparent;
+  display: none;
 }
 
 body.active {
