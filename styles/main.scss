@@ -1,5 +1,6 @@
-$main-font: "VT323", monospace;
+$main-font: 'Major Mono Display', monospace;
 $logo-font: "La Belle Aurore", cursive;
+$para-font: "Space Mono", monospace;
 $primary-color: #FBC201;
 $complem-color: #7C6208;
 
@@ -20,7 +21,7 @@ body {
     //Arrangement
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
     
     //Background
     background: url('cafe_lounge.jpg') no-repeat center center fixed;
@@ -36,6 +37,32 @@ body {
     
     p {
         font-size: 1.5rem;
+        font-family: $para-font;
+    }
+
+    footer {
+        //Positioning
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+
+        //Sizing
+        width: 100%;
+        padding: 1rem 0rem;
+
+        //Colour
+        background-color: #4D5057;
+
+        display: flex;
+        justify-content: center;
+
+        div {
+            text-align: center;
+        }
+
+        p {
+            font-size: 1rem;
+        }
     }
 }
 
@@ -64,6 +91,5 @@ main.active {
 }
 
 body.active {
-
     box-shadow: inset 0 0 0 1000px rgba(251, 194, 1, 0.7);
 }

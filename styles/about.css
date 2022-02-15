@@ -13,18 +13,16 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("cafe_lounge.jpg") no-repeat center center fixed;
-  background-size: cover;
 }
 
 body h1 {
-  font-family: "VT323", monospace;
+  font-family: "Major Mono Display", monospace;
   font-size: 6rem;
   font-weight: normal;
 }
 
 body h2 {
-  font-family: "VT323", monospace;
+  font-family: "Major Mono Display", monospace;
   font-size: 3rem;
   font-weight: normal;
 }

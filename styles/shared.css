@@ -20,8 +20,8 @@ ul {
 }
 
 header {
-  background-color: #FBC201;
-  color: #7C6208;
+  background-color: #4E6E5D;
+  color: #CFCFCF;
   position: absolute;
   top: 0;
   left: 0;
@@ -76,7 +76,7 @@ header .menu-button.active .bi-list {
 }
 
 .menu {
-  font-family: "VT323", monospace;
+  font-family: "Major Mono Display", monospace;
   font-size: 5rem;
   display: none;
   -webkit-box-align: end;

@@ -1,4 +1,4 @@
-$main-font: "VT323", monospace;
+$main-font: 'Major Mono Display', monospace;
 $logo-font: "La Belle Aurore", cursive;
 $para-font: "Space Mono", monospace;
 $primary-color: #FBC201;
@@ -22,8 +22,8 @@ body {
     flex-direction: column;
     
     //Background
-    background: url('cafe_lounge.jpg') no-repeat center center fixed;
-    background-size: cover;
+    //background: url('cafe_lounge.jpg') no-repeat center center fixed;
+    //background-size: cover;
 
     h1 {
         //Font
